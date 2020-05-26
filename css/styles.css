@@ -1,0 +1,99 @@
+@font-face {
+	font-family: "Proxima";
+	src: url("fonts/ProximaNova-Regular.otf");
+}
+
+body {
+	height: 100vh;
+	background-color: #494e51;
+	background-image: url("img/us5.png");
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-size: contain;
+	overflow: hidden;
+	text-rendering: optimizeLegibility;
+	font-family: "Proxima";
+	margin: 0;
+	padding: 0;
+}
+
+#allcontent {
+	position: absolute;
+	/*height: 100vh;
+	width: 40%;*/
+	margin: 1.5em;
+	color: #fff;
+	padding: 1.5em;
+	top: 25%;
+	left: 50%;
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: .14em;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 22px;
+	font-weight: 350;
+	color: #a3a3a3;
+}
+
+#mail {
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: .14em;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 15px;
+	padding: 12px 0;
+}
+
+#mail:hover {
+	opacity: 0.4;
+	transition: 0.7s;
+}
+
+#allmedia {
+	/*width: 70%;*/
+	margin-top: 12px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	padding: 0.4em;
+	cursor: pointer;
+	margin: 0.4em;
+}
+
+ul:hover li {
+	opacity: 0.4;
+	transition: 0.7s;
+}
+
+ul:hover li:hover {
+	opacity: 1;
+	transition: 0.7s;
+}
+
+@media screen and (max-device-width: 480px) {
+
+	#allcontent {
+		/*width: 100%;*/
+		top: 16%;
+		left: -3%;
+	}
+
+	#allmedia {
+		width: 70%;
+	}
+
+}
